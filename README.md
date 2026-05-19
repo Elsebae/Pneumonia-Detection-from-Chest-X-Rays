@@ -58,10 +58,9 @@ This project presents a comparative study between traditional **Machine Learning
 
 ```
 📦 pneumonia-detection/
-├── 📓 project.ipynb        # ML models: HOG + SVM & HOG + KNN
-├── 📓 dl2.ipynb            # DL model: ResNet50 with transfer learning
-├── 📓 Untitled23.ipynb     # DL model: VGG16 with transfer learning
-├── 📄 Report.pdf           # Full project report
+├── 📓 ml_hog_svm_knn.ipynb        # ML models: HOG + SVM & HOG + KNN
+├── 📓 dl_resnet50.ipynb            # DL model: ResNet50 with transfer learning
+├── 📓 dl_vgg16.ipynb     # DL model: VGG16 with transfer learning
 └── 📄 README.md
 ```
 
@@ -69,7 +68,7 @@ This project presents a comparative study between traditional **Machine Learning
 
 ## Methodology
 
-### 🔷 Machine Learning Pipeline (`project.ipynb`)
+### 🔷 Machine Learning Pipeline (`ml_hog_svm_knn.ipynb`)
 
 1. **Preprocessing** — Grayscale conversion, resize to 128×128
 2. **Feature Extraction** — HOG (Histogram of Oriented Gradients)
@@ -78,7 +77,7 @@ This project presents a comparative study between traditional **Machine Learning
    - **SVM**: RBF kernel, balanced class weights
    - **KNN**: k=5, Euclidean distance
 
-### 🔶 Deep Learning Pipeline (`dl2.ipynb`, `Untitled23.ipynb`)
+### 🔶 Deep Learning Pipeline (`dl_resnet50.ipynb`, `dl_vgg16.ipynb`)
 
 1. **Preprocessing** — Resize to 224×224, normalize to [0,1]
 2. **Data Augmentation** — Rotation (15°), width/height shift (0.1), zoom (0.15), horizontal flip, brightness [0.9–1.1]
