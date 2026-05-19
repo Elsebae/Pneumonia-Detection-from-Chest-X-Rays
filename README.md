@@ -109,7 +109,7 @@ pip install tensorflow scikit-learn scikit-image opencv-python kagglehub seaborn
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/pneumonia-detection.git
+git clone https://github.com/Elsebae/Pneumonia-Detection-from-Chest-X-Rays
 cd pneumonia-detection
 ```
 
