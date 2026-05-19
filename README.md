@@ -1,8 +1,6 @@
 # 🫁 Pneumonia Detection from Chest X-Rays
 ### A Comparative Study of Machine Learning vs. Deep Learning
 
-> **October 6 University** — Faculty of Information Systems & Computer Science  
-> Supervised by **Dr. Reham Hesain** | Co-supervised by **Eng. Magy Makrm** & **Eng. Rahma Alsayed**
 
 ---
 
@@ -13,7 +11,6 @@
 - [Project Structure](#project-structure)
 - [Methodology](#methodology)
 - [Installation & Usage](#installation--usage)
-- [Team](#team)
 - [References](#references)
 
 ---
@@ -140,18 +137,6 @@ chmod 600 ~/.kaggle/kaggle.json
 - ✅ **VGG16 outperformed ResNet50**, showing that architectural complexity doesn't always win
 - ✅ **Transfer learning with fine-tuning** proved highly effective for medical image classification
 - ✅ Automatic feature learning (CNNs) is **superior to handcrafted features** (HOG) for this task
-
----
-
-## Team
-
-| # | Name | ID |
-|---|------|----|
-| 1 | Mustafa Elsebaey Mohamed | 23017722 |
-| 2 | Mostafa Tarek Mahmoud | 23012714 |
-| 3 | Qamar Mohamed Almaraey | 23012608 |
-| 4 | Yasmin Ahmed Haseeb | 23013473 |
-| 5 | Ahmed Mostafa Mahmoud | 23013835 |
 
 ---
 
