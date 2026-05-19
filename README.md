@@ -121,9 +121,9 @@ chmod 600 ~/.kaggle/kaggle.json
 ```
 
 **3. Run the notebooks**
-- Open `project.ipynb` for ML models (CPU sufficient)
-- Open `dl2.ipynb` for ResNet50 (GPU recommended)
-- Open `Untitled23.ipynb` for VGG16 (GPU recommended)
+- Open `ml_hog_svm_knn.ipynb` for ML models (CPU sufficient)
+- Open `dl_resnet50.ipynb` for ResNet50 (GPU recommended)
+- Open `dl_vgg16.ipynb` for VGG16 (GPU recommended)
 
 > 💡 DL models were trained for 20 epochs each and require a GPU for reasonable training time.
 
